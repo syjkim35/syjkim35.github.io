@@ -1,12 +1,16 @@
-body { margin: 0; }
+body { margin: 0; overflow-x: hidden; }
 
 .parallax-panel1{
-  background:#eee url(https://images.unsplash.com/uploads/1411589183965bdf6e141/5f468e98?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=8cde817bf2f74b68ca32078d5cd035e6) center bottom fixed;
+  background:#eee url(https://images.unsplash.com/uploads/1411589183965bdf6e141/5f468e98?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1280&fit=max&s=8cde817bf2f74b68ca32078d5cd035e6) center bottom fixed;
   background-repeat:no-repeat;
   background-size: cover;
-  padding:40vh 20px 50vh 20px;
-  width: 100%;
-  margin 0px auto 0px auto;
+  height: 100vh;
+  min-height: 680px;
+  width: 100vw;
+  margin: 0px auto 0px auto;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
 }
 
 #my-name {
@@ -99,6 +103,7 @@ body { margin: 0; }
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+
 }
 
 .parallax-panel4{
@@ -106,8 +111,8 @@ body { margin: 0; }
   background-repeat:no-repeat;
   background-size: cover;
   padding:60vh 20px 40vh 20px;
-  width: 100%;
-  margin 0px auto 0px auto;
+  width: 100vw;
+  margin: 0px auto 0px auto;
 /*  position: relative;*/
 }
 

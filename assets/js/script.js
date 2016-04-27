@@ -1,25 +1,26 @@
 $(document).ready(function(){
+	$("#my-name").hide(0).delay(250).fadeIn(5000);
+	$("#my-year").hide(0).delay(250).fadeIn(5000);
+    $("#my-major").hide(0).delay(250).fadeIn(5000);
+    $("#my-minor").hide(0).delay(250).fadeIn(5000);
+    $(".blurb").fadeTo(0, 0);
 
-	$("#my-year").fadeIn();
-    $("#my-major").fadeIn("slow");
-    $("#my-minor").fadeIn(3000);
-
-    $(window).scroll(function(){
-    	$("my-name").fadeOut();
-    	$("my-titles").fadeOut();
-    });
+    // $(window).scroll(function(){
+    // 	$("#my-name").fadeOut();
+    // 	$("#my-titles").fadeOut();
+    // });
 
 
     $("#tdx-pic").hover(function() {
-    	$("tdx-blurb").fadeIn();
+    	$("#tdx-blurb").fadeTo(5000,100);
     });
 
     $("#cmg-pic").hover(function() {
-    	$("cmg-blurb").fadeIn();
+    	$("#cmg-blurb").fadeTo(5000,100);
     });
 
     $("#pinterest-pic").hover(function() {
-    	$("pinterest-blurb").fadeIn();
+    	$("#pinterest-blurb").fadeTo(5000,100);
     });
 
 	if ($('#back-to-top').length) {
