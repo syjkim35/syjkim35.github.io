@@ -1,0 +1,171 @@
+body { margin: 0; }
+
+.parallax-panel1{
+  background:#eee url(https://images.unsplash.com/uploads/1411589183965bdf6e141/5f468e98?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=8cde817bf2f74b68ca32078d5cd035e6) center bottom fixed;
+  background-repeat:no-repeat;
+  background-size: cover;
+  padding:40vh 20px 50vh 20px;
+  width: 100%;
+  margin 0px auto 0px auto;
+}
+
+#my-name {
+  font-family: 'Open Sans';
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 700;
+  color: white;
+}
+
+.my-titles {
+  font-family: 'Open Sans';
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+}
+
+.panel-under-parallax-lol{
+   background:white;
+}
+
+.section-heading {
+  font-family: 'Open Sans';
+  color:white;
+  text-decoration: underline;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: -200px;  
+}
+
+#profile-pic{
+  float: left;
+  padding-left: 100px;
+  display: block;
+  height: auto;
+  width: auto;
+}
+
+#words-and-shit {
+  font-family: 'Open Sans';
+  width: 50%;
+  float: left;
+  margin: 0 100px 0 100px;
+  font-size: 100%;
+  line-height: 200%;
+  color: white;
+}
+
+
+.parallax-panel2{
+  background: #eee url(https://images.unsplash.com/photo-1424945371075-22967c63145c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=18df55a857550fe83d867fa9383ae6cb) center top fixed;
+  background-repeat:no-repeat;
+  background-size: cover;
+  padding:40vh 20px 40vh 20px;
+  width: 100%;
+  margin 0px auto 0px auto;
+  overflow: hidden;
+}
+
+.parallax-panel3{
+  background: #eee url(https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?crop=entropy&fit=crop&fm=jpg&h=575&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1300 ) center top fixed;
+  opacity: 75%;
+  background-repeat:no-repeat;
+  background-size: cover;
+  padding:40vh 20px 20vh 20px;
+  width: 100%;
+  margin 0px auto 0px auto;
+  overflow: hidden;
+}
+
+.project-item{
+    margin-left: 40px;
+    float: left;
+    margin: 110px;
+}
+
+.blurb-item{
+  font-family: 'Open Sans';
+  margin: 10px 0px 20px 0px;
+/*  width: 500px;*/
+  height: 60px;
+  /*line-height: 10px;*/
+  color:white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.parallax-panel4{
+  background:#eee url(https://images.unsplash.com/uploads/14120938606568dde6e2b/c9e42240?crop=entropy&fit=crop&fm=jpg&h=625&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1300) center bottom fixed;
+  background-repeat:no-repeat;
+  background-size: cover;
+  padding:60vh 20px 40vh 20px;
+  width: 100%;
+  margin 0px auto 0px auto;
+/*  position: relative;*/
+}
+
+
+#contact-intro {
+  font-family: 'Open Sans';
+  text-align: center;
+  padding: 10px 0px 0px 10px ;
+  color:white;
+}
+
+#mail-pic{
+  float:left;
+  padding-left: 300px;
+}
+
+.list-content {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: white;
+  float: right;
+}
+
+.list-item {
+  font-family: 'Open Sans';
+  margin: 10px 0px 20px 0px;
+  width: 300px;
+  height: 60px;
+  line-height: 55px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#back-to-top {
+    font-family: 'Open Sans';
+    text-align: center;
+    bottom: 40px;
+    z-index: 9999;
+/*    width: 200px;
+    height: 100px; */
+    margin-left:auto;
+    margin-right:auto;
+    padding: 15px 10px 15px 10px;
+    line-height: 30px;
+    background: gray;
+    color: white ;
+    cursor: pointer;
+    border: 0;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+}
+#back-to-top:hover {
+    background: #e9ebec;
+}
+#back-to-top.show {
+    opacity: 1;
+}
+#content {
+    height: 2000px;
+}
